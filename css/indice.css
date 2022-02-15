@@ -31,3 +31,10 @@ a{
 .twitter-timeline {
     width: 50%;
 }
+
+iframe{
+    width: 400px;
+    height: 500px;
+    border: none;
+    overflow: hidden;
+}

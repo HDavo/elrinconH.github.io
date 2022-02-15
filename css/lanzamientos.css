@@ -7,23 +7,27 @@
 .lanzamientos_izq>li:hover {
     text-decoration: none;
     background-color: green;
+    
 }
 
 
 .lanzamientos_izq>img{
     width:35%;
     float: left;
-    /* margin-right: 2%; */
+    margin-left: 2%;
     
 
 }
 .lanzamientos_der>img {
     width: 35%;
     float: right;
+    margin-right: 2%;
+    
 }
 
 img {
     border: 2px solid black;
+    transition: 0.2s;
 }
 
 img:hover {
@@ -33,10 +37,14 @@ img:hover {
     transform-style: preserve-3d;
     width: 40%;
     overflow: hidden;
+    transition: rotateY 0.2s;
 }
 
 .lanzamientos_der,.lanzamientos_izq {
     margin-bottom: 7%;
+    margin-top: 5%;
+    border: 1px solid black;
+    
 }
 
 
