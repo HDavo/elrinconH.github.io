@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+#tiendas {
+    border-top: 1 px solid black;
+    padding: 1%;
+    float: left;
+    width: 30%;
+}
+
+#tiendas>img{
+    width:45%;
+}
+
+#canales{
+    float:right;
+    width: 70%;
+}
+
+#canales>a>img{
+    width: 30%;
+}
+
+#canales>h2{
+    padding: 1%;
+}
+
+img {
+    width: 10%;
+    /* float: left; */
+}

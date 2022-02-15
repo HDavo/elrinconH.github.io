@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    position: relative;
+	background-image: url("../imgs/fondo.jpg");
+
+}
+
+nav {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+	color:white;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+
+    
+
+a {
+   text-decoration: none;
+   color: white;
+
+} 
+
+ul {
+	color: white;
+	list-style: none;
+}
+
+li{
+    list-style: none;
+    background-color: black;
+    width:19%;
+    text-align: center;
+    padding: 1%;
+	color: white;
+    display: inline-block;
+}
+
+/* los padding estan incluidos (se suman) al width y al height*/
+
+li:hover {
+    background-color: orange;
+    color: black;
+}
+
+
+#contenido {
+   
+    width: 60%;
+    background-color: whitesmoke;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50% auto;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    height: auto;
+    color: white;
+    padding: 1%;
+    margin-top: 90vh;
+    position: absolute;
+}
+
+#cop {
+float: left;	
+}
+
+#cor {
+	float: right;
+}
