@@ -38,3 +38,8 @@ iframe{
     border: none;
     overflow: hidden;
 }
+
+video{
+    margin-top: 3%;
+    width:100%;
+}

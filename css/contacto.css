@@ -5,14 +5,13 @@
 }
 
 #correo {
-    background-color: antiquewhite;
+    background-color: rgba(24, 15, 150, 0.493);
     text-decoration: none;
     margin: 1em auto;
     color: #fff;
     padding: 1em 2em 1em 3.5em;
     border-radius: 2em;
     font-weight: bold;
-    background: grey  no-repeat 1.5em center;
     background-size: 1.6em;
 }
 
@@ -46,10 +45,16 @@
     padding: 0.5%;
     border-radius: 2em;
     font-weight: bold;
-    background: rgb(114, 32, 32);
+    background: rgba(114, 32, 32, 0.349);
     background-size: 1.6em;
 }
 
 #botones>a{
     text-decoration: none;
+}
+
+audio {
+    margin-top: 3%;
+    opacity:0.1;
+    background-color: rgba(202, 185, 185, 0.295);
 }
