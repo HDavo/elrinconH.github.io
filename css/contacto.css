@@ -18,6 +18,7 @@
 #formu {
     /* border: 1px solid black; */
     text-align: center;
+    overflow: hidden;
 }
 
 textarea {
@@ -68,16 +69,12 @@ audio {
     background-color: rgba(202, 185, 185, 0.295);
 }
 
+
+
 @media screen and (max-width: 1000px) {
     textarea{
         width:40%;
     }
-
-    /* .arriba{
-        display: none;
-        text-decoration: none;
-        
-    } */
    
     #botones>a {
         /* display: block; */
@@ -90,18 +87,4 @@ audio {
         margin: 0 auto;
     }
 
-
-    /* #.arriba{
-        visibility: hidden;
-    } */
-
-    /* #wha .arriba {
-        display: block;
-        width: 100%;
-    } */
-
-    /* #correo #tel {
-        width: 40%;
-    } 
-     */
 }
