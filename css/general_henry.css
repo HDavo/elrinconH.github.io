@@ -60,6 +60,8 @@ li:hover {
     margin-top: 50% auto;
 }
 
+
+
 footer {
     width: 100%;
     background-color: black;
@@ -68,7 +70,7 @@ footer {
     padding: 1%;
     margin-top: 90vh;
     position: absolute;
-
+    max-width: 100%;
 }
 
 #cop {
@@ -77,4 +79,37 @@ float: left;
 
 #cor {
 	float: right;
+}
+
+@media screen and (max-width: 720px) {
+    
+    #contenido {
+        flex-direction: column;
+        width: 85%;
+    }
+
+    nav {
+        width:100%; padding: 1%;
+        background-color: black;
+        position: static;
+    }
+
+    nav>ul>li {
+        background-color: black;
+    }
+
+    img{
+        width:15%;
+    }
+
+    body{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    footer{
+        width: 100vh;
+    }
+
+
 }

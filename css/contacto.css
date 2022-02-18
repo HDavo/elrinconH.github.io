@@ -58,3 +58,12 @@ audio {
     opacity:0.1;
     background-color: rgba(202, 185, 185, 0.295);
 }
+
+@media screen and (max-width: 720px) {
+    #botones>a {
+        display: block;
+        margin-bottom: 3%;
+        width: 40%;    
+    }
+    
+}
