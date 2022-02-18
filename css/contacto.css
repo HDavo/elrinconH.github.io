@@ -20,11 +20,16 @@
     text-align: center;
 }
 
+textarea {
+    width: 80%;
+}
+
 #botones{
     width: 100%;
     border: 1px;
     margin-top: 5%;
 }
+
 
 
 #wha{
@@ -53,17 +58,50 @@
     text-decoration: none;
 }
 
+.arriba{
+    opacity: 1;
+}
+
 audio {
     margin-top: 3%;
     opacity:0.1;
     background-color: rgba(202, 185, 185, 0.295);
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1000px) {
+    textarea{
+        width:40%;
+    }
+
+    /* .arriba{
+        display: none;
+        text-decoration: none;
+        
+    } */
+   
     #botones>a {
-        display: block;
+        /* display: block; */
         margin-bottom: 3%;
-        width: 40%;    
+        width: 50%; 
     }
     
+    #wha,#correo,#tel {
+        display: block;
+        margin: 0 auto;
+    }
+
+
+    /* #.arriba{
+        visibility: hidden;
+    } */
+
+    /* #wha .arriba {
+        display: block;
+        width: 100%;
+    } */
+
+    /* #correo #tel {
+        width: 40%;
+    } 
+     */
 }
