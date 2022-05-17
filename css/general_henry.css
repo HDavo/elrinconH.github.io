@@ -36,11 +36,49 @@ ul {
 li{
     list-style: none;
     background-color: black;
-    width:19%;
+    width:15%;
     text-align: center;
     padding: 1%;
 	color: white;
     display: inline-block;
+}
+
+nav>ul>li {
+    display: inline-block;
+    position: relative;
+}
+
+nav>ul>li>ul {
+    display: none;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    line-height: 30px;
+}
+
+/* line-height es interlineado; */
+nav>ul>li:hover>ul {
+    display: block;
+}
+
+
+nav>ul>li>ul>li {
+	position: relative;
+	text-align: left;
+	padding: 2% 5%;
+}
+
+nav>ul>li>ul>li:hover>ul {
+	display: block;
+}
+
+nav>ul>li>ul>li>ul {
+	position: absolute;
+	left: 100%;
+	top: 0;
+	display: none;
+	width: 500%;
+	line-height: 30px;
 }
 
 /* los padding estan incluidos (se suman) al width y al height*/
@@ -94,6 +132,10 @@ float: left;
 	float: right;
 }
 
+#nuevo{
+    background-color: red;
+}
+
 @media screen and (max-width: 820px) {
     
     #contenido {
@@ -111,6 +153,8 @@ float: left;
         background-color: black;
         opacity: 0.9;
     }
+
+
 
     img{
         width:15%;

@@ -1,0 +1,7 @@
+.banner {
+    background-image: url(../imgs/banner_indice.png);
+    height: 50%;
+    width: 80%;
+    background-size: cover;
+    background-attachment: fixed;
+}
