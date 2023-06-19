@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#correo {
+    background-color: rgba(24, 15, 150, 0.493);
+    text-decoration: none;
+    margin: 1em auto;
+    color: #fff;
+    padding: 1em 2em 1em 3.5em;
+    border-radius: 2em;
+    font-weight: bold;
+    background-size: 1.6em;
+}
+
+#formu {
+    /* border: 1px solid black; */
+    text-align: center;
+    overflow: hidden;
+}
+
+textarea {
+    width: 80%;
+}
+
+#botones{
+    width: 100%;
+    border: 1px;
+    margin-top: 5%;
+}
+
+
+
+#wha{
+    text-decoration: none;
+    margin: 1em auto;
+    color: #fff;
+    padding: 1em 2em 1em 3.5em;
+    border-radius: 2em;
+    font-weight: bold;
+    background: #25d366 url('https://tochat.be/click-to-chat-directory/css/whatsapp.svg') no-repeat 1.5em center; background-size: 1.6em;
+}
+
+#tel{
+    background-color: antiquewhite;
+    text-decoration: none;
+    margin: 1em auto;
+    color: #fff;
+    padding: 0.5%;
+    border-radius: 2em;
+    font-weight: bold;
+    background: rgba(114, 32, 32, 0.349);
+    background-size: 1.6em;
+}
+
+#botones>a{
+    text-decoration: none;
+}
+
+.arriba{
+    opacity: 1;
+}
+
+audio {
+    margin-top: 3%;
+    opacity:0.1;
+    background-color: rgba(202, 185, 185, 0.295);
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    textarea{
+        width:40%;
+    }
+   
+    #botones>a {
+        /* display: block; */
+        margin-bottom: 3%;
+        width: 50%; 
+    }
+    
+    #wha,#correo,#tel {
+        display: block;
+        margin: 0 auto;
+    }
+
+}

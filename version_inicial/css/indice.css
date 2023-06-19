@@ -1,0 +1,42 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.imagen {
+    width: 100%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+#caja_ind {
+    margin-bottom: 2%;
+    width: 100%;
+    background-color: azure;
+    border: 4 px solid black;
+    display: inline;
+}
+
+.twitter-timeline {
+    width: 50%;
+}
+
+iframe{
+    width: 400px;
+    height: 500px;
+    border: none;
+    overflow: hidden;
+}
+
+video{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width:90%;
+    padding: auto;
+}
+
